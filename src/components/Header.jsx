@@ -34,7 +34,9 @@ export const Header = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <h1 style={{ color: "white" }}>
+              <b>Olga Felczak</b>
+            </h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -60,17 +62,6 @@ export const Header = () => {
                 onClick={() => onUpdateActiveLink("projects")}
               >
                 Projects
-              </Nav.Link>
-              <Nav.Link
-                href="#connect"
-                className={
-                  activeLink === "contact"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("contact")}
-              >
-                Contact
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
