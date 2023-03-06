@@ -19,14 +19,20 @@ export const Footer = () => {
             className="text-center text-sm-end"
           >
             <div className="social-icon">
-              <a href="#">
-                <img src={navIcon1} alt="Icon" />
+              <a
+                href="https://www.linkedin.com/in/olga-felczak-098ba3268/"
+                target="_blank"
+              >
+                <img src={navIcon1} alt="Linkedin Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="Icon" />
+              <a href="https://github.com/OlgaFelczak" target="_blank">
+                <img src={navIcon2} alt="Github Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="Icon" />
+              <a
+                href="../../public/resume/Olga-Felczak-Resume.pdf"
+                download="Olga_Felczak_Resume.pdf"
+              >
+                <img src={navIcon3} alt="Download Icon" />
               </a>
             </div>
             <p>
