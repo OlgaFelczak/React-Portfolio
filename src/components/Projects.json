@@ -1,32 +1,36 @@
 [
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Team Profile Generator",
+    "imgUrl": "src/assets/screenshots/project1.png",
+    "githubUrl": "https://github.com/OlgaFelczak/Team-Profile-Generator"
   },
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Weather Dashboard",
+    "imgUrl": "src/assets/screenshots/project2.png",
+    "githubUrl": "https://github.com/OlgaFelczak/Weather-Dashboard",
+    "liveUrl": "https://olgafelczak.github.io/Weather-Dashboard/"
   },
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Daily Planner App",
+    "imgUrl": "src/assets/screenshots/project3.png",
+    "githubUrl": "https://github.com/OlgaFelczak/Daily-Planner-App",
+    "liveUrl": "https://olgafelczak.github.io/Daily-Planner-App"
   },
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Password Generator",
+    "imgUrl": "src/assets//screenshots/project4.png",
+    "githubUrl": "https://github.com/OlgaFelczak/Password-Generator",
+    "liveUrl": "https://olgafelczak.github.io/Password-Generator/"
   },
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Console Finances",
+    "imgUrl": "src/assets/screenshots/project5.png",
+    "githubUrl": "https://github.com/OlgaFelczak/Console-Finances",
+    "liveUrl": "https://olgafelczak.github.io/Console-Finances/"
   },
   {
-    "title": "Business Startup",
-    "description": "Design & Development",
-    "imgUrl": "src/assets/img/project-img1.png"
+    "title": "Admin Panel App",
+    "imgUrl": "src/assets/screenshots/project6.png",
+    "githubUrl": "https://github.com/OlgaFelczak/React-Admin-Dashboard-App"
   }
 ]
