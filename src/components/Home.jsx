@@ -72,10 +72,13 @@ export const Home = () => {
                 </span>
               </h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                My entire career has been associated with the customer service
+                field. However, I am also passionate about technology. So, one
+                day I put all my eggs in one basket and decided to change my
+                professional career and start as a Front-End developer! <br />
+                👀 I am interested in JavaScipt and all frontend stuff! <br />
+                🌱 I am currently learning HTML, CSS, JavaScript, TypeScript and
+                React!
               </p>
             </div>
           </Col>
