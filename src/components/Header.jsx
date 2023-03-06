@@ -66,14 +66,20 @@ export const Header = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <img src={navIcon1} alt="" />
+                <a
+                  href="https://www.linkedin.com/in/olga-felczak-098ba3268/"
+                  target="_blank"
+                >
+                  <img src={navIcon1} alt="Linkedin Icon" />
                 </a>
-                <a href="#">
-                  <img src={navIcon2} alt="" />
+                <a href="https://github.com/OlgaFelczak" target="_blank">
+                  <img src={navIcon2} alt="Github Icon" />
                 </a>
-                <a href="#">
-                  <img src={navIcon3} alt="" />
+                <a
+                  href="../../public/resume/Olga-Felczak-Resume.pdf"
+                  download="Olga_Felczak_Resume.pdf"
+                >
+                  <img src={navIcon3} alt="Download Icon" />
                 </a>
               </div>
               <HashLink to="#connect">
