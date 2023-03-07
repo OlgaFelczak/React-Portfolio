@@ -26,7 +26,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     let response = await fetch(
-      "https://formsubmit.co/ajax/35c0fee9a09c5a163351b767356f3fac",
+      "https://formsubmit.co/ajax/ofelczak@gmail.com",
       {
         method: "POST",
         headers: {
