@@ -75,8 +75,8 @@ export const Home = () => {
                 field. However, I am also passionate about technology. So, one
                 day I put all my eggs in one basket and decided to change my
                 professional career and start as a Front-End developer! <br />
-                👀 I am interested in JavaScipt and all frontend stuff! <br />
-                🌱 I am currently learning HTML, CSS, JavaScript, TypeScript and
+                ✨ I am interested in JavaScipt and all frontend stuff! <br />
+                🚀 I am currently learning HTML, CSS, JavaScript, TypeScript and
                 React!
               </p>
             </div>
