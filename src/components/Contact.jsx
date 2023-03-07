@@ -25,19 +25,25 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
+    let response = await fetch(
+      "https://formsubmit.co/ajax/35c0fee9a09c5a163351b767356f3fac",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(formDetails),
+      }
+    );
     setButtonText("Send");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    console.log(result, result.success);
+    if (result.success === "true") {
+      console.log("sponio");
       setStatus({ succes: true, message: "Message sent successfully" });
     } else {
+      console.log("dupa");
       setStatus({
         succes: false,
         message: "Something went wrong, please try again later.",
@@ -70,7 +76,7 @@ export const Contact = () => {
                   <Col size={12} sm={6} className="px-1">
                     <input
                       type="text"
-                      value={formDetails.lasttName}
+                      value={formDetails.lastName}
                       placeholder="Last Name"
                       onChange={(e) => onFormUpdate("lastName", e.target.value)}
                     />
@@ -98,12 +104,7 @@ export const Contact = () => {
                       placeholder="Message"
                       onChange={(e) => onFormUpdate("message", e.target.value)}
                     ></textarea>
-                    <button type="submit">
-                      <span>{buttonText}</span>
-                    </button>
-                  </Col>
-                  {status.message && (
-                    <Col>
+                    {status.message && (
                       <p
                         className={
                           status.success === false ? "danger" : "success"
@@ -111,8 +112,11 @@ export const Contact = () => {
                       >
                         {status.message}
                       </p>
-                    </Col>
-                  )}
+                    )}
+                    <button type="submit">
+                      <span>{buttonText}</span>
+                    </button>
+                  </Col>
                 </Row>
               </form>
             </div>
