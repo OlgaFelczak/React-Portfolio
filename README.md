@@ -8,7 +8,7 @@ The portfolio website was created using React & Vite. To display projects JSON f
 
 ## Screenshot
 
-![Website View](./src/assets/screenshots/websiteView.png)
+![Website View](/public/screenshots/websiteView.png)
 
 ## Table of Contents
 
