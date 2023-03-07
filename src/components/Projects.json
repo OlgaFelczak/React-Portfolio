@@ -1,12 +1,12 @@
 [
   {
     "title": "Team Profile Generator",
-    "imgUrl": "public/screenshots/project1.png",
+    "imgUrl": "https://olgafelczak.github.io/React-Portfolio/screenshots/project1.png",
     "githubUrl": "https://github.com/OlgaFelczak/Team-Profile-Generator"
   },
   {
     "title": "Weather Dashboard",
-    "imgUrl": "public/screenshots/project2.png",
+    "imgUrl": "React-Portfolio/screenshots/screenshots/project2.png",
     "githubUrl": "https://github.com/OlgaFelczak/Weather-Dashboard",
     "liveUrl": "https://olgafelczak.github.io/Weather-Dashboard/"
   },
