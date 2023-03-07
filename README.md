@@ -18,6 +18,8 @@ The portfolio website was created using React & Vite. To display projects JSON f
 
 - [💻 Local development](#-Local-Development)
 
+- [💫 Links](#-Links)
+
 - [💬 Questions](#-Questions)
 
 - [📝 Source](#-Source)
@@ -41,6 +43,12 @@ To run this application use the following command:
 ```
 yarn dev
 ```
+
+## 💫 Links
+
+GitHub URL: https://github.com/OlgaFelczak/React-Portfolio
+
+Deployed App: https://olgafelczak.github.io/React-Portfolio/
 
 ## 💬 Questions
 
