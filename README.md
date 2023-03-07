@@ -12,11 +12,11 @@ The portfolio website was created using React & Vite. To display projects JSON f
 
 ## Table of Contents
 
-- [🛠 Built with](#-BuiltWith)
+- [🛠 Built with](#-Buil-tWith)
 
 - [💿 Installation](#-Installation)
 
-- [💻 Local development](#-LocalDevelopment)
+- [💻 Local development](#-Local-Development)
 
 - [💬 Questions](#-Questions)
 
