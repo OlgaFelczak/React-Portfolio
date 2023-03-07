@@ -34,6 +34,7 @@ export const Footer = () => {
               <a href="mailto:ofelczak@gmail.com">
                 <img src={navIcon4} alt="Email Icon" />
               </a>
+              
             </div>
             <p>
               Copyright 2022. All Rights Reserved, Icons by
