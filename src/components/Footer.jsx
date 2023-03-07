@@ -19,7 +19,10 @@ export const Footer = () => {
             className="text-center text-sm-end"
           >
             <div className="social-icon">
-              <a href="https://linkedin.com/in/olga-felczak" target="_blank">
+              <a
+                href="https://olgafelczak.github.io/React-Portfolio/resume/Olga-Felczak-Resume.pdf"
+                target="_blank"
+              >
                 <img src={navIcon1} alt="Linkedin Icon" />
               </a>
               <a href="https://github.com/OlgaFelczak" target="_blank">
@@ -34,7 +37,6 @@ export const Footer = () => {
               <a href="mailto:ofelczak@gmail.com">
                 <img src={navIcon4} alt="Email Icon" />
               </a>
-
             </div>
             <p>
               Copyright 2022. All Rights Reserved, Icons by
