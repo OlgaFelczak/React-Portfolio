@@ -33,7 +33,7 @@ export const Header = () => {
     <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://olgafelczak.github.io/React-Portfolio/">
             <h1 style={{ color: "white" }}>
               <b>Olga Felczak</b>
             </h1>
