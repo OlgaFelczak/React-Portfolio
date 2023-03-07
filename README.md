@@ -48,7 +48,7 @@ Contact me if you have any questions!
 
 - Drop me an email [ofelczak@gmail.com](mailto:ofelczak@gmail.com)
 - Check out my GitHub profile [OlgaFelczak](https://github.com/OlgaFelczak)
-- LinkedIn [Olga Felczak](www.linkedin.com/in/olga-felczak)
+- LinkedIn [Olga Felczak](https://linkedin.com/in/olga-felczak)
 
 ## 📝 Source
 
