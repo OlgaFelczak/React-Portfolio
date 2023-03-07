@@ -26,7 +26,7 @@ export const Footer = () => {
                 <img src={navIcon2} alt="Github Icon" />
               </a>
               <a
-                href="../../public/resume/Olga-Felczak-Resume.pdf"
+                href="../resume/Olga-Felczak-Resume.pdf"
                 download="Olga_Felczak_Resume.pdf"
               >
                 <img src={navIcon3} alt="Download Icon" />
@@ -34,7 +34,7 @@ export const Footer = () => {
               <a href="mailto:ofelczak@gmail.com">
                 <img src={navIcon4} alt="Email Icon" />
               </a>
-              
+
             </div>
             <p>
               Copyright 2022. All Rights Reserved, Icons by
