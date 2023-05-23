@@ -1,14 +1,14 @@
-import { useState, useEffect } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.png";
-import navIcon4 from "../assets/img/nav-icon4.png";
-import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.png';
+import navIcon4 from '../assets/img/nav-icon4.png';
+import { HashLink } from 'react-router-hash-link';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export const Header = () => {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,9 +20,9 @@ export const Header = () => {
       }
     };
 
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener('scroll', onScroll);
 
-    return () => window.removeEventListener("scroll", onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   const onUpdateActiveLink = (value) => {
@@ -31,10 +31,10 @@ export const Header = () => {
 
   return (
     <Router>
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
         <Container>
           <Navbar.Brand href="https://olgafelczak.github.io/React-Portfolio/">
-            <h1 style={{ color: "white" }}>
+            <h1 style={{ color: 'white' }}>
               <b>Olga Felczak</b>
             </h1>
           </Navbar.Brand>
@@ -46,20 +46,20 @@ export const Header = () => {
               <Nav.Link
                 href="#home"
                 className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
+                  activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
                 }
-                onClick={() => onUpdateActiveLink("home")}
+                onClick={() => onUpdateActiveLink('home')}
               >
                 Home
               </Nav.Link>
               <Nav.Link
                 href="#projects"
                 className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
+                  activeLink === 'projects'
+                    ? 'active navbar-link'
+                    : 'navbar-link'
                 }
-                onClick={() => onUpdateActiveLink("projects")}
+                onClick={() => onUpdateActiveLink('projects')}
               >
                 Projects
               </Nav.Link>
@@ -75,6 +75,7 @@ export const Header = () => {
                 <a
                   href="https://olgafelczak.github.io/React-Portfolio/resume/Olga-Felczak-Resume.pdf"
                   download="Olga_Felczak_Resume.pdf"
+                  target="_blank"
                 >
                   <img src={navIcon3} alt="Download Icon" />
                 </a>
@@ -84,7 +85,7 @@ export const Header = () => {
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Let’s Connect</span>
+                  <span>Let's Connect</span>
                 </button>
               </HashLink>
             </span>
