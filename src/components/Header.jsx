@@ -73,9 +73,8 @@ export const Header = () => {
                   <img src={navIcon2} alt="Github Icon" />
                 </a>
                 <a
-                  href="https://olgafelczak.github.io/React-Portfolio/resume/Olga-Felczak-Resume.pdf"
+                  href="../../public/resume/Olga-Felczak-Resume.pdf"
                   download="Olga_Felczak_Resume.pdf"
-                  target="_blank"
                 >
                   <img src={navIcon3} alt="Download Icon" />
                 </a>
